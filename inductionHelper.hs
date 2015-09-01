@@ -1,17 +1,17 @@
 -- what does this shit do.
 -- SHOWS HOW SIMILAR TWO FUNCTIONS ARE RELATIVE TO IIDENTICAL INPUT - HEURISTICAL TOOL. DOES NOT GIVE RIGHT/WRONG RESULTS - ONLY TEXTUAL REPRESENTATION.
 --
--- usage: induceResultsIS "somesRelation" someNumber
--- i.e: induceResultsIS "==" 10
+-- usage(after loading): mainf "==" 10
 --
+--if your task changes, make sure you change these two functions:
 -- lhsf = left hand side function
 -- rhsf = right hand side function
 --
 --
--- thw whole purpose of this little piece of code is to "visualize" results for heuristical reasons for those of us who would benefit from it.
+-- the whole purpose of this little piece of code is to "visualize" results for heuristical reasons for those of us who would benefit from it. beats doing it by hand.
 
 
--- functions from exercise sheet 2 (u2 prefix)
+-- functions from exercise sheet 2 (u2 prefix) - can be ignored.
 
 u2sumside k = [(n+1)*2^n | n <- [1..k]]
 u2funside k = (k+1)*2^(k+2) - (k+2)*2^(k+1) +1
